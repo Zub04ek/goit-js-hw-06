@@ -10,5 +10,5 @@ function removeFocus(event) {
     return event.currentTarget.classList.add('valid');
   }
   event.currentTarget.classList.remove('valid');
-  return event.currentTarget.classList.add('invalid');
+  event.currentTarget.classList.add('invalid');
 }
